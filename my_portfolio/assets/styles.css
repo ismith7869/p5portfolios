@@ -1,0 +1,365 @@
+@charset "UTF-8";
+
+ body {
+    color: #191919;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 14pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-size: cover;
+    background-color: #00451B;
+    height: auto;
+    position: static;
+}
+
+/*Float the Main so it shows up next to the Aside. Reduce width 150px so they both line up below the header.*/
+
+main{
+    width: 1100px;
+    height: 1600px;
+    margin: auto;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 91px;
+	alignment: center;
+}
+
+.column {
+    width: 250px;
+    height: 750px;
+    float: left;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+
+#container{
+    width: 1304px;
+    background-color: rgba(103,255,165,1.00);
+    margin: auto;
+    padding-right: 0px;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 0px;
+    margin-left: 65px;
+    text-color: #3E9161;
+	font-family: prostina;
+}
+
+#container nav li {
+    display: inline-block;
+    width: 132px;
+    font-size: larger;
+    color: #B7A906;
+    margin-right: 169px;
+}
+
+nav a:hover{
+    background-color: #105E33;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+article {
+}
+
+/*Float aside so it displays next to main.*/
+
+aside {
+    width: 150px;
+    height: 400px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: #006828;
+    color: #FFFFFF;
+}
+
+td{
+width: 600px;
+padding: 20px;
+border: 5px solid #191919;
+border-radius: 20px;
+}
+
+img {
+	float: right;
+    padding: 10px;
+}
+article p .floatleft {
+    margin-top: -174px;
+    margin-bottom: auto;
+    margin-left: 760px;
+}
+.floatleft{
+    float: left;
+}
+
+header {
+    width: 702px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    margin-left: 279px;
+    margin-bottom: 0px;
+    background-image: url(../images/header.jpg);
+}
+
+/*Clear the float so the footer shows up in the right place again.*/
+footer {
+    width: 1304px;
+    height: 50px;
+    background-color: #006828;
+    clear: both;
+    color: #FFFFFF;
+    margin-top: 222px;
+}
+
+h1 {
+    color: #00451B;
+    font-family: prostina;
+    font-weight: 700;
+    font-style: normal;
+    margin: auto;
+    font-size: 24pt;
+}
+tr th strong {
+    font-family: Prostina;
+}
+
+
+p{
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 0px;
+    padding-right: 8px;
+    padding-bottom: 0px;
+    font-size: 14pt;
+    text-align: left;
+    width: 700px;
+    padding-left: 0px;
+    margin-left: 90px;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+
+h3 {
+    font-size: 12pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: prostina;
+}
+
+.floatright {
+    float: right;
+}
+
+.submit_btn {
+    width: 170px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #5ABA83;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Prostina;
+    font-weight: normal;
+}
+
+.submit_btn:hover {
+	-webkit-box-shadow: 6px 6px 35px 1px #000000;
+    box-shadow: 6px 6px 35px 1px #000000;
+}
+
+nav {
+    width: 1304px;
+    position: fixed;
+    top: 0px;
+    background-color: #67FFA5;
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 78px;
+    margin-right: 26px;
+    text-align: center;
+}
+
+.column img {
+    width: 261px;
+    margin-right: 19px;
+    margin-bottom: 58px;
+    margin-top: 10px;
+}
+
+.cclicense {
+	width: 500px;
+	height: 20px;
+	clear: both;
+	padding: 50px 0px 0px 0px;
+}
+video {
+    width: 600px;
+    margin: auto;
+    height: 600px;
+}
+ul li a {
+    color: #0F6634;
+    font-family: Prostina;
+    font-weight: 700;
+}
+main ol li {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+main ul li {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+
+
+main p a {
+    color: #0F6634;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+tr td a {
+    color: #00451B;
+    font-family: Pristina, Script;
+}
+tr td .yungblud {
+    margin-left: -21px;
+}
+
+video {
+    margin-top: 144px;
+    margin-left: 144px;
+    margin-bottom: 144px;
+    margin-right: 144px;
+    width: 573px;
+    height: 600px;
+}
+article  {
+    float: left;
+    margin-bottom: 50px;
+}
+main p img {
+    float: none;
+    margin-left: 838px;
+    margin-top: -429px;
+}
+form {
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: 33px;
+    margin-bottom: auto;
+}
+label   {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+tr td a:hover {
+    border-radius: 10px;
+    background-color: #105E33;
+    color: white;
+}
+#container ul ul {
+    text-align: center;
+    display: inline-table;
+    font-size: 98px;
+}
+footer h2 a {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Rules the page will follow for Tablet-sized devices*/
+@media (max-width: 1024px){
+	
+	#container{
+    width: 1261px;
+	}
+#container nav ul{
+    margin: auto;
+    color: #44C07B;
+	}
+	
+	
+	header{
+    width: 1066px;
+    margin-left: -2px;
+    background-image: url(../../../project%202/my_portfolio/header.jpg);
+    height: 606px;
+	}
+	
+	nav{
+    width: 1060px;
+    height: 49px;
+    margin: auto;
+	}
+	
+	main{
+    width: 598px;
+    height: 2500px;
+    margin: auto;
+	}
+	
+	footer{
+		width: 768px;
+	}
+	
+	.column{
+		margin: 0px 20px 0px 25px;
+	}
+}
+
+/*Rules the page will follow on mobile devices*/
+@media only screen and (max-width:375px){
+	
+	#container{
+		width: 300px;
+	}
+	
+	header{
+    width: 10px;
+    margin-left: 500px;
+    background-image: url(../../../project%202/my_portfolio/header.jpg);
+	}
+	
+	nav{
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+	}
+	
+	main{
+		width: 300px;
+		margin:auto;
+	}
+	
+	footer{
+		width: 300px;
+	}
+	
+	aside{
+    display: none;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+	}
+}
+.yungblud {
+}

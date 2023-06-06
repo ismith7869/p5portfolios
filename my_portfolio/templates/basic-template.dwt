@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link href="../assets/styles.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.typekit.net/zel6rkm.css">
+<link rel="stylesheet" href="https://use.typekit.net/zel6rkm.css">
+<link rel="stylesheet" href="https://use.typekit.net/zel6rkm.css">
+<!-- TemplateBeginEditable name="head" -->
+	
+<style type ="text/css">
+	
+</style>
+
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+	<div id="container">
+  <header><img src="../images/header.jpg" width="792" height="232" alt=""/></header>
+  <nav>
+	<ul>
+		<li> <a href="../pages/about.html">About</a></li>
+		<li><a href="../pages/blog.html">Blog</a></li>
+		<li><a href="../pages/gallery.html">Gallery</a></li>
+		<li><a href="../pages/contact.html">Contact</a></li>
+		
+    </ul>
+  </nav>
+  <!--Begin Floated Elements-->
+  <aside>
+	<h3>I'm a woman, a sister, a daughter, an athlete, an artist, and an African American, who also makes jewelry. </h3>
+	<h3>Join me as I examine life through all of my various lenses.</h3>
+	<h3>by Iyana Smith</h3>
+	</aside>
+	
+  <!-- TemplateBeginEditable name="main-content" -->
+  <main>
+    <h1>Page Title</h1>
+  </main>
+		<!--End Floated Elements-->
+	  <!-- TemplateEndEditable name="main-content" -->	
+</div>
+</body>
+</html>
